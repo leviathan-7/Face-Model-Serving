@@ -10,9 +10,9 @@
 2) pip install "uvicorn[standard]"
 3) pip install python-multipart
 
-Запуск:
+Запуск:      
 uvicorn main:app --reload
 
-Сваггер:
+Сваггер:      
 http://127.0.0.1:8000/docs
 
