@@ -4,7 +4,6 @@ import json
 import os
 import typing as t
 from pathlib import Path
-from PIL import ImageDraw
 import bentoml
 from bentoml.validators import ContentType
 from fastapi import FastAPI
