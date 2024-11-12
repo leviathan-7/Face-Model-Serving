@@ -39,7 +39,7 @@ class YoloV8:
         return getFace(self, images)
 
     @bentoml.api
-    def render(self, image: Image):
+    def render(self, image: Image) -> Image:
         result = self.model.predict(image)[0]
         output = image.parent.joinpath(f"{image.stem}_result{image.suffix}")
         result.save(str(output))
