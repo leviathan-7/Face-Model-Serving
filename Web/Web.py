@@ -20,6 +20,6 @@ if image_file is not None:
         if st.button("Добавить в БД"):
             response_post = requests.post(URL_Main_Server + '/api/new_person/', params={'name': new_name, 'img': img})
             if response_post.status_code == 200:
-                st.write("Пользователь добавлен")
+                st.write("Пользователь добавлен.")
             else:
-                st.write("Ошибка! Пользователь уже добавлен в БД")
+                st.write("Ошибка! Пользователь уже добавлен в БД.")
