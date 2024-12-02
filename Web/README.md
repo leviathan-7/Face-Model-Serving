@@ -14,6 +14,6 @@ Web интерфейс на фреймворке Streamlit.
 
 ## Запуск:        
 ```      
-streamlit run Web.py
+streamlit run web.py
 ```
 

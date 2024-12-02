@@ -14,7 +14,11 @@ BentoML example project, demonstrating how to build an object detection inferenc
 bentoml serve .
 ```
 
-The server is now active at [http://localhost:3000](http://localhost:3000/). You can interact with it using the Swagger UI or in other different ways.
+## URL:
+
+**http://localhost:3000/**
+
+You can interact with it using the Swagger UI or in other different ways.
 
 ## Deploy to BentoCloud
 
